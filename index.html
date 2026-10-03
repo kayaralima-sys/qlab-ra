@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071a3d">
+  <title>Q-LAB | Tubo de Ensaio em RA</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #123b85, #06142f 60%, #030918);
+      color: white; display: flex; justify-content: center;
+    }
+    .app { width: min(100%, 760px); min-height: 100vh; padding: 18px; }
+    .brand { text-align:center; font-weight:900; font-size:2rem; color:#ffd229;
+             text-shadow:0 0 16px #00a8ff; }
+    h1 { text-align:center; margin:8px 0 4px; font-size:1.45rem; }
+    .sub { text-align:center; margin:0 0 12px; color:#d8efff; }
+    .viewer {
+      height: 62vh; min-height: 430px; width:100%; border-radius:24px;
+      overflow:hidden; border:2px solid #19c8ff; background:#eaf8ff;
+      box-shadow:0 0 25px rgba(0,190,255,.45);
+    }
+    model-viewer { width:100%; height:100%; }
+    #ar-button {
+      border:0; border-radius:999px; padding:15px 22px; font-size:1rem;
+      font-weight:900; background:#ffcc24; color:#082052;
+      box-shadow:0 5px 16px rgba(0,0,0,.3); position:absolute;
+      left:50%; bottom:20px; transform:translateX(-50%); white-space:nowrap;
+    }
+    .help { margin-top:14px; padding:14px 16px; border-radius:18px;
+            background:rgba(8,42,94,.85); line-height:1.45; }
+    .help b { color:#ffd229; }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <div class="brand">Q-LAB</div>
+    <h1>🧪 Tubo de Ensaio</h1>
+    <p class="sub">Gire o modelo ou visualize-o no seu ambiente.</p>
+
+    <div class="viewer">
+      <model-viewer
+        src="./tubo_de_ensaio.glb"
+        alt="Modelo 3D de um tubo de ensaio"
+        camera-controls
+        auto-rotate
+        shadow-intensity="1"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        ar-placement="floor"
+        touch-action="pan-y">
+        <button slot="ar-button" id="ar-button">📱 VER EM REALIDADE AUMENTADA</button>
+      </model-viewer>
+    </div>
+
+    <div class="help">
+      <b>Como usar:</b> abra esta página no celular, toque em
+      <b>VER EM REALIDADE AUMENTADA</b>, permita o uso da câmera e movimente
+      o aparelho até detectar uma superfície. Depois, posicione o tubo de ensaio.
+    </div>
+  </main>
+</body>
+</html>
