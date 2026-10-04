@@ -1,18 +1,13 @@
-Q-LAB — ATUALIZAÇÃO DOS 7 MODELOS CORRIGIDOS
+Q-LAB — REAÇÃO QUÍMICA EM RA
 
-Cada pasta contém somente o novo modelo.glb.
+Arquivos:
+- index.html
+- reacao_quimica_Q_LAB_RA_FINAL.glb
 
-No GitHub, abra a pasta de mesmo nome e substitua APENAS o arquivo modelo.glb.
-NÃO apague o index.html.
+Equação:
+CH4 + 2 O2 -> CO2 + 2 H2O
 
-Pastas:
-- reacao-quimica
-- reagentes-produtos
-- colisao-efetiva
-- colisao-nao-efetiva
-- energia-de-ativacao
-- estado-de-transicao
-- perfil-energetico
-
-Depois faça Commit changes e aguarde o GitHub Pages atualizar.
-Os QR Codes V2 já apontam para essas mesmas páginas.
+IMPORTANTE:
+Publique a pasta em um site HTTPS (por exemplo, GitHub Pages).
+O QR Code deverá apontar para a URL pública do index.html/pasta publicada,
+e não para a URL do arquivo .glb dentro do GitHub.

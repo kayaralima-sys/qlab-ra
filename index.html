@@ -1,1 +1,45 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Q-LAB RA</title><style>body{font-family:Arial;background:#06142f;color:white;margin:0}main{max-width:1000px;margin:auto;padding:24px}h1{text-align:center;color:#ffd229}p{text-align:center}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}a{text-decoration:none;color:white;padding:20px;border:2px solid #19c8ff;border-radius:18px;background:#0b3472;display:flex;flex-direction:column;gap:10px}span{color:#ffd229}</style></head><body><main><h1>Q-LAB</h1><p>Equipamentos de Laboratório — 3D e Realidade Aumentada</p><div class="grid"><a href="./tubo-de-ensaio/"><b>Tubo de Ensaio</b><span>3D + RA →</span></a><a href="./bequer/"><b>Béquer</b><span>3D + RA →</span></a><a href="./erlenmeyer/"><b>Erlenmeyer</b><span>3D + RA →</span></a><a href="./proveta/"><b>Proveta</b><span>3D + RA →</span></a><a href="./pipeta/"><b>Pipeta</b><span>3D + RA →</span></a><a href="./balao-volumetrico/"><b>Balão Volumétrico</b><span>3D + RA →</span></a><a href="./funil/"><b>Funil</b><span>3D + RA →</span></a><a href="./vidro-de-relogio/"><b>Vidro de Relógio</b><span>3D + RA →</span></a><a href="./placa-de-petri/"><b>Placa de Petri</b><span>3D + RA →</span></a><a href="./espatula/"><b>Espátula</b><span>3D + RA →</span></a><a href="./balanca/"><b>Balança</b><span>3D + RA →</span></a><a href="./termometro/"><b>Termômetro</b><span>3D + RA →</span></a><a href="./phmetro/"><b>pHmetro</b><span>3D + RA →</span></a><a href="./condutivimetro/"><b>Condutivímetro</b><span>3D + RA →</span></a><a href="./agitador-magnetico/"><b>Agitador Magnético</b><span>3D + RA →</span></a><a href="./microscopio/"><b>Microscópio</b><span>3D + RA →</span></a></div></main></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q-LAB | Reação Química em RA</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Arial,sans-serif; background:#f7fbff; color:#10233f; }
+    header { padding:18px; text-align:center; background:#082c59; color:white; }
+    main { max-width:1100px; margin:auto; padding:18px; }
+    .card { background:white; border-radius:18px; padding:16px; box-shadow:0 8px 24px #0002; }
+    model-viewer { width:100%; height:68vh; min-height:480px; background:white; border-radius:14px; }
+    .equacao { text-align:center; font-size:clamp(24px,4vw,42px); font-weight:700; margin:10px 0 16px; }
+    .legenda { text-align:center; margin-top:12px; font-size:16px; }
+    .ar { background:#0b63ce; color:white; border:none; border-radius:999px; padding:14px 22px;
+          font-size:18px; font-weight:700; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Q-LAB — Reação Química</h1>
+  <div>Realidade Aumentada</div>
+</header>
+<main>
+  <div class="card">
+    <div class="equacao">CH₄ + 2 O₂ → CO₂ + 2 H₂O</div>
+    <model-viewer
+      src="reacao_quimica_Q_LAB_RA_FINAL.glb"
+      alt="Modelo tridimensional da combustão do metano: uma molécula de metano e duas de oxigênio formando uma molécula de dióxido de carbono e duas de água."
+      camera-controls
+      touch-action="pan-y"
+      auto-rotate
+      shadow-intensity="1"
+      exposure="1"
+      ar
+      ar-modes="webxr scene-viewer quick-look">
+      <button class="ar" slot="ar-button">VER EM REALIDADE AUMENTADA</button>
+    </model-viewer>
+    <div class="legenda">⚫ Carbono (C) &nbsp; 🔴 Oxigênio (O) &nbsp; ⚪ Hidrogênio (H)</div>
+  </div>
+</main>
+</body>
+</html>
