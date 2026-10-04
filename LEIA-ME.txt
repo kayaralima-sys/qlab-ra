@@ -1,0 +1,18 @@
+Q-LAB — ATUALIZAÇÃO DOS 7 MODELOS CORRIGIDOS
+
+Cada pasta contém somente o novo modelo.glb.
+
+No GitHub, abra a pasta de mesmo nome e substitua APENAS o arquivo modelo.glb.
+NÃO apague o index.html.
+
+Pastas:
+- reacao-quimica
+- reagentes-produtos
+- colisao-efetiva
+- colisao-nao-efetiva
+- energia-de-ativacao
+- estado-de-transicao
+- perfil-energetico
+
+Depois faça Commit changes e aguarde o GitHub Pages atualizar.
+Os QR Codes V2 já apontam para essas mesmas páginas.
