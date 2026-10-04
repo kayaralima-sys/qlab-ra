@@ -1,0 +1,7 @@
+Envie a pasta reacao-quimica para a RAIZ do repositório qlab-ra.
+Ela deve conter exatamente:
+- index.html
+- modelo.glb
+
+Depois faça Commit changes. Ainda não gere/use QR Code.
+Primeiro teste a página no GitHub Pages.
