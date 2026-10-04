@@ -1,0 +1,7 @@
+01_reacao_quimica: https://kayaralima-sys.github.io/qlab-ra/reacao-quimica/?v=1
+02_reagentes_produtos: https://kayaralima-sys.github.io/qlab-ra/reagentes-produtos/?v=1
+03_colisao_efetiva: https://kayaralima-sys.github.io/qlab-ra/colisao-efetiva/?v=1
+04_colisao_nao_efetiva: https://kayaralima-sys.github.io/qlab-ra/colisao-nao-efetiva/?v=1
+05_energia_de_ativacao: https://kayaralima-sys.github.io/qlab-ra/energia-de-ativacao/?v=1
+06_estado_de_transicao: https://kayaralima-sys.github.io/qlab-ra/estado-de-transicao/?v=1
+07_perfil_energetico: https://kayaralima-sys.github.io/qlab-ra/perfil-energetico/?v=1

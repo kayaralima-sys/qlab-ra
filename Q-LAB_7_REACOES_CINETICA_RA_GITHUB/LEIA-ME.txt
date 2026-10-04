@@ -1,0 +1,9 @@
+Q-LAB — REAÇÕES E CINÉTICA QUÍMICA EM RA
+
+Pacote pronto para o repositório qlab-ra.
+
+Cada pasta contém:
+- index.html
+- modelo.glb
+
+Envie as 7 pastas para a raiz do repositório qlab-ra e faça Commit changes.
