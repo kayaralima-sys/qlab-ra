@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Q-LAB — Diminuição até o átomo</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>
+  <style>
+    body{margin:0;background:#071a2e;color:#fff;font-family:Arial,sans-serif;text-align:center}
+    main{max-width:1100px;margin:auto;padding:24px}
+    h1{margin:0 0 8px}.sub{color:#d7e1ec;margin:0 0 18px}
+    model-viewer{width:100%;height:70vh;min-height:520px;background:transparent;border-radius:24px}
+    .ar{position:absolute;left:50%;bottom:20px;transform:translateX(-50%);
+        border:0;border-radius:999px;padding:14px 24px;font-weight:700;font-size:16px}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Q-LAB — Diminuição até o átomo</h1>
+  <p class="sub">Observe a redução de escala do Q-Bot e visualize a experiência em realidade aumentada.</p>
+  <model-viewer
+    src="qbot_diminuicao_atomo_RA.glb"
+    alt="Q-Bot diminuindo de tamanho até a escala do átomo"
+    camera-controls auto-rotate
+    ar ar-modes="webxr scene-viewer quick-look"
+    shadow-intensity="0"
+    exposure="1">
+    <button class="ar" slot="ar-button">VER EM RA</button>
+  </model-viewer>
+</main>
+</body>
+</html>
