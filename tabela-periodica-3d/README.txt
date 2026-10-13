@@ -1,0 +1,1 @@
+Pasta pronta para GitHub Pages. Envie tabela-periodica-3d para a raiz do repositório qlab-ra.
