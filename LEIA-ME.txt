@@ -1,13 +1,1 @@
-Q-LAB — REAÇÃO QUÍMICA EM RA
-
-Arquivos:
-- index.html
-- reacao_quimica_Q_LAB_RA_FINAL.glb
-
-Equação:
-CH4 + 2 O2 -> CO2 + 2 H2O
-
-IMPORTANTE:
-Publique a pasta em um site HTTPS (por exemplo, GitHub Pages).
-O QR Code deverá apontar para a URL pública do index.html/pasta publicada,
-e não para a URL do arquivo .glb dentro do GitHub.
+Envie as quatro pastas para a raiz do repositório qlab-ra, mantendo index.html e molecula.glb juntos. QR Codes apontam para GitHub Pages e funcionarão após publicação. RA depende de dispositivo/navegador compatível; iOS pode requerer USDZ.
