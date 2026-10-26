@@ -1,0 +1,11 @@
+Q-LAB | Teoria das Colisões | 2 H2 + O2 -> 2 H2O
+
+01 ANTES: duas moléculas de H2 e uma de O2 separadas.
+02 COLISÃO EFETIVA: aproximação ilustrativa dos reagentes e destaque de energia; NÃO é um estado de transição real calculado nem uma animação.
+03 DEPOIS: duas moléculas de H2O, com geometria angular de aproximadamente 104,5 graus.
+04 COLISÃO NÃO EFETIVA: reagentes sem formação de água.
+
+Cores científicas convencionais: H branco, O vermelho; ligações em cinza.
+Os modelos não possuem placas nem textos, para evitar espelhamento e confusão em realidade aumentada.
+A representação é didática. A reação real de formação de água pode envolver mecanismos em várias etapas e ignição.
+Arquivos GLB independentes, prontos para serem abertos em visualizadores compatíveis com GLB.
