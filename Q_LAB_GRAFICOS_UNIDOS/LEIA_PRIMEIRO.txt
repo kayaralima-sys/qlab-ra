@@ -1,0 +1,10 @@
+Q-LAB - REINSTALACAO DA PAGINA DOS GRAFICOS
+
+1. No repositorio qlab-ra, abra a pasta Q_LAB_GRAFICOS_UNIDOS (ja existente).
+2. Envie os arquivos index.html e 03_COMPARACAO_COMPLETA.glb DESTA pasta, diretamente para Q_LAB_GRAFICOS_UNIDOS. Se o GitHub solicitar substituir arquivo de mesmo nome, confirme.
+3. Nao envie uma segunda pasta Q_LAB_GRAFICOS_UNIDOS dentro da primeira.
+4. Clique em Commit changes e aguarde a publicacao.
+5. Abra https://kayaralima-sys.github.io/qlab-ra/Q_LAB_GRAFICOS_UNIDOS/
+6. Teste no celular ANTES de usar o QR no Canva.
+
+O QR abre o endereco acima; nao abre o arquivo GLB diretamente.
