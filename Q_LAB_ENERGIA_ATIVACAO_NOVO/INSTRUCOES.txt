@@ -1,0 +1,9 @@
+Q-LAB — NOVA PUBLICAÇÃO
+
+1. Abra o repositório qlab-ra no GitHub.
+2. Crie uma pasta NOVA chamada qlab-energia-ativacao.
+3. Dentro dela, envie index.html e comparacao.glb (não envie o ZIP).
+4. Confirme as alterações (Commit changes).
+5. Aguarde o GitHub Pages terminar a publicação.
+6. Abra https://kayaralima-sys.github.io/qlab-ra/qlab-energia-ativacao/
+7. Somente depois do teste positivo, gere/use o QR Code.
